@@ -81,7 +81,7 @@
 	</div>
 </div>
 
-
+<!-- SECTION FOR MODAL WINDOWS -->
 <div class="reveal" id="portfolio-modal-1" data-reveal>
 
 	<h3 class='modal-title'>Personal Pages</h3>
@@ -165,26 +165,26 @@
 
 <div class="reveal" id="portfolio-modal-4" data-reveal>
 
-	<h3 class='modal-title'>Personal Pages</h3>
+	<h3 class='modal-title'>Huge Forms</h3>
 	<hr />
 	<div class='hide-for-small-only'>
 		<div class='row' >
 			<div class='columns'>
-				<img class='modal-image-reg' src='/images/Personal_Page.png' >
+				<img class='modal-image-reg' src='/images/REU.png' >
 			</div>
 		</div>
 	</div>
 	<div class='show-for-small-only' >
 		<div class='row' >
 			<div class='columns'>
-				<img class='portfolio-image-small' src='/images/Personal_Page.png' >
+				<img class='portfolio-image-small' src='/images/REU.png' >
 			</div>
 		</div>
 	</div>
   <p class="lead">Purpose:</p>
-  <p>Faculty request pages that were customizable and could show what they wanted</p>
+  <p>Giant submission form requested to help organize and manage student submissions for a summer research oppertunity.</p>
   <p class='lead'> Acheived By:</p>
-  <p>Creating several specialized forms which allowed Faculty to modify, add, or delete information within a MySQL database. The resulting database would then be acessed and it's information shown in an appealing manner.</p> 
+  <p>Creating several input boxes, which are filled in by the user, that will eventually be submited to a database. Information such as personal references, resumes, and other sensitive information are all automatically examined and sanitized to get rid of any potentially harmful input. Afterwords, a new, filled out, row is added to the database and can be accessed by select users.</p> 
   <button class="close-button" data-close aria-label="Close modal" type="button">
     <span aria-hidden="true">&times;</span>
   </button>

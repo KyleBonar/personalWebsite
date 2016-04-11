@@ -1,1 +1,1 @@
-# personalWebsite
+In this repository you will find all of the code that makes my website what it is.
