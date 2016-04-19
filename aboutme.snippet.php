@@ -9,7 +9,7 @@
         </div>
         <div class='row align-center' >
             <div class='medium-10 columns' >
-                <p class='centered'>My name is Kyle Bonar. I am an web developer, and in May 2016, I will graduate from Texas A&M University with a BS in physics!</p>
+                <p class='centered'>Hi! My name is Kyle Bonar. I am an aspiring web developer currently working for the Mitchell Institute at Texas A&M. This May, I will graduating from TAMU with a BS in Physics, a minor in Mathematics and a minor in Astrophysics.</p>
             </div>
         </div>
     </div>
