@@ -1,0 +1,137 @@
+.title-area {
+	padding-top: 0px;
+	width: 187px;
+}
+.site-inner {
+	padding-top: 0px;
+}
+.site-header {
+	height: 0px !important;
+}
+.site-header .wrap {
+	display: none;
+}
+#custom-header-image,
+#custom-header-link {
+	width: 100%; height: 100%
+}
+.toppers {
+	margin-left: 14px;
+	margin-right: 14px;
+}
+.cent {
+	text-align: center;
+}
+.site-inner {
+	max-width: 100%;
+	padding:0px;
+}
+#custom-navigation-header {
+	background-color: #252525;
+	width: 100%;
+	padding: 25px 0px;
+	margin-bottom: 20px;
+}
+#custom-navigation-header a {
+	color: #FFF;
+}
+#navigation-center {
+	padding-top: 14px;
+	font-size: 20px;
+}
+
+#navigation-name {
+
+	font-family: 'Kaushan Script', cursive;
+	font-size: 28px;
+	color: #FFF;
+}
+#about-background {
+	background-color: #e4e4e4;
+	margin-bottom: 20px;
+}
+#about-background .centered {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 16px;
+}
+#about-background .wrap {
+	padding: 30px 0px;
+}
+
+.border_surround  {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 20px 25px 0px;
+}
+.border_surround .title_text {
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: -42px;
+    padding: 10px;
+    text-align: center;
+}
+
+#about-image {
+	border-radius: 50%;
+	width: 291px;
+	height: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#examples-background p {
+	font-size: 25px
+}
+
+.portfolio-image-reg {
+	max-height: 100%;
+	max-width: 100%;
+	width: 100%;
+	height: 250px;
+	border:1px solid #021a40;
+}
+
+#examples-background .hide-for-small-only .row,
+#examples-background .show-for-small-only .row{
+	height: 250px;
+}
+#examples-background .show-for-small-only .row{
+	margin-bottom: 20px;
+}
+
+.portfolio-image-small {
+	width: 250px;
+	height: 250px;
+	max-height: 250px;
+	max-width: 250px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border:1px solid #021a40;
+}
+#examples-background h3 {
+	font-size: 24px;
+}
+.modal-image-reg {
+	width: 250px;
+	height: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid #021a40;
+}
+.modal-title, .lead {
+	text-align: center
+}
+
+
+
+
+
+
+
+
