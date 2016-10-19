@@ -1,0 +1,55 @@
+html body {
+	background-image: url("/images/overlay.png"), url("/images/blue-gradient.jpg");
+	background-repeat: repeat, no-repeat;
+	background-size: auto auto, 100% 100%;
+	height: 100%;
+}
+
+#content-wrapper {
+	padding-top: 75px;
+}
+
+#navigation {
+	margin: 0 auto;
+	width: 65%;
+	text-align: center;
+}
+
+.img-link {
+	display: inline;
+	position: relative;
+	margin: 0 3%; 
+}
+
+.img-link span {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 1s ease;
+	position: absolute;
+	background-color: #000;
+	color: #ffffff;
+	left:-50%;
+	height: 2.25em;
+	line-height: 2.25em;
+	top:-5.75em;
+	width: 5.5em;
+	border-radius: 6px;
+
+}
+.img-link span:after {
+    border-left: 0.6em solid transparent;
+    border-right: 0.6em solid transparent;
+    border-top: 0.6em solid black;
+    bottom: -0.4em;
+    content: "";
+    display: block;
+    left: 50%;
+    margin-left: -0.6em;
+    position: absolute;
+}
+
+.img-link:hover span{
+	visibility: visible;
+	opacity: 1;
+}
+
