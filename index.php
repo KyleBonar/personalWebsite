@@ -15,17 +15,17 @@
 			<span id='self-title'>Self Proclaimed Awesome Guy</span>
 		</div>
 		<div id='portfolio-block' class='page'>
-			<span id='work'>Work</span>
-			<span id='work-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor nibh eget nisi posuere molestie. Aenean volutpat vel ante in lacinia. Praesent dapibus lacinia elit at placerat. Aenean sollicitudin nibh sed faucibus volutpat. Curabitur gravida nunc rhoncus tempus dignissim. In eu elementum diam. Aenean nisi mi, faucibus ut erat quis, aliquet posuere nunc. </span>
+			<span id='work-title'>Work</span>
+			<p id='work-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor nibh eget nisi posuere molestie. Aenean volutpat vel ante in lacinia. Praesent dapibus lacinia elit at placerat. Aenean sollicitudin nibh sed faucibus volutpat. Curabitur gravida nunc rhoncus tempus dignissim. In eu elementum diam. Aenean nisi mi, faucibus ut erat quis, aliquet posuere nunc. </p>
 			<div class='img-row'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg'>
+				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
+				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
+				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
 			</div>
 			<div class='img-row'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg'>
+				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
+				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
+				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
 			</div>
 
 		</div>
@@ -44,21 +44,22 @@
 
 var navItems = document.getElementsByClassName("img-link");
 const navItemsLength = navItems.length;
+var rateOfScroll = 360;
 
 for(let j = 0; j < navItemsLength; j++) {
+
 	navItems[j].addEventListener("click", function() {
-    	var pageItems = document.getElementsByClassName("page");
-    	
-		for(let m = 0; m<navItemsLength; m++)
-		{
-			navItems[m].classList.remove("active");
-			pageItems[m].classList.remove("active");
-		}
-		// document.getElementById("main").childNodes[j].classList.add("active");
-		pageItems[j].classList.add("active");
-  		this.classList.add("active");
-  		// page
+
+		var moveToInactive = document.querySelectorAll(".active"); //find all with active class.
+
+		moveToInactive[0].classList.remove("active"); //remove active from nav
+		this.classList.add("active"); //add active to nav
+
+		moveToInactive[1].classList.remove("active"); //remove active from page		
+		document.querySelectorAll(".page")[j].classList.add("active"); //add active to page
+  		
 	});
+
 }
 
 

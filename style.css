@@ -3,7 +3,7 @@ html body {
 	background-repeat: repeat, no-repeat;
 	background-size: auto auto, 100% 100%;
 	background-attachment: fixed;
-
+	overflow: hidden;
 }
 
 #content-wrapper {
@@ -12,7 +12,7 @@ html body {
 
 #navigation {
 	margin: 0 auto;
-	width: 65%;
+	width: 85%;
 	text-align: center;
 }
 
@@ -29,7 +29,7 @@ html body {
     border-right: 0.9em solid transparent;
     width: 0px;
     height: 0px;
-    bottom: -35px;
+    bottom: -36px;
     content: "";
     display: block;
     left: 40%;
@@ -78,25 +78,26 @@ border-bottom-width: 1em;
 #main {
 	margin: 35px auto 0px auto;
     /*text-align: center;*/
-    width: 65%;
+    width: 85%;
     background: #ffffff none repeat scroll 0 0;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
 }
 
 #home-block {
-	max-height: 0;
+	max-height: 0px;
 	opacity: 0;
-	transition: max-height 0.7s ease 0s;
-		-webkit-transition: max-height 0.7s ease 0s; /* Chrome, Safari, Opera 15 */ 
-		-moz-transition: max-height 0.7s ease 0s;  /*Firefox*/
-		-ms-transition: max-height 0.7s ease 0s;/*IE*/
-		-o-transition: max-height 0.7s ease 0s; /*Opera 10*/
+	transition: max-height 0s, opacity 0.7s ease-in-out;
+		-webkit-transition: max-height 0s, opacity 0.7s ease-in-out; /* Chrome, Safari, Opera 15 */ 
+		-moz-transition: max-height 0s, opacity 0.7s ease-in-out;  /*Firefox*/
+		-ms-transition: max-height 0s, opacity 0.7s ease-in-out;/*IE*/
+		-o-transition: max-height 0s, opacity 0.7s ease-in-out; /*Opera 10*/
 	overflow: hidden;
 }
+
 	#home-block.active {
-		opacity: 1;
 		max-height: 250px;
+		opacity: 1;
 	}
 
 	#home-block img {
@@ -107,8 +108,7 @@ border-bottom-width: 1em;
 
 	#name {
 		display: block;
-		font-size: 1.5em;
-		/*text-align: left;*/
+		font-size: 2em;
 		padding-top: 90px;
 		padding-left: 10px;
 		font-family: 'Rubik', sans-serif;
@@ -126,17 +126,36 @@ border-bottom-width: 1em;
 	}
 
 #portfolio-block {
-	max-height: 0;
 	opacity: 0;
-	transition: max-height 0.7s ease 0s;
-		-webkit-transition: max-height 0.7s ease 0s; /* Chrome, Safari, Opera 15 */ 
-		-moz-transition: max-height 0.7s ease 0s;  /*Firefox*/
-		-ms-transition: max-height 0.7s ease 0s;/*IE*/
-		-o-transition: max-height 0.7s ease 0s; /*Opera 10*/
+	max-height: 0px;
+	transition: max-height 0s, opacity 0.7s ease-in-out;
+		-webkit-transition: max-height 0s, opacity 0.7s ease-in-out; /* Chrome, Safari, Opera 15 */ 
+		-moz-transition: max-height 0s, opacity 0.7s ease-in-out;  /*Firefox*/
+		-ms-transition: max-height 0s, opacity 0.7s ease-in-out;/*IE*/
+		-o-transition: max-height 0s, opacity 0.7s ease-in-out; /*Opera 10*/
 	overflow: hidden;
+	padding: 0;
+	
 }
 	#portfolio-block.active {
+		max-height: 1250px;
 		opacity: 1;
-		max-height: 1250px;		
 	}
 
+	#work-title {
+		display: block;
+		padding-top: 25px;
+		padding-left: 20px;
+		font-family: 'Rubik', sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 2em;
+	}
+
+	#work-paragraph {
+		padding-left: 20px;
+		font-size: 1.2em;
+		font-family: "Rubik",sans-serif;
+		font-weight: 300;
+		font-style: italic;
+	}
