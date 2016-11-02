@@ -142,7 +142,7 @@ border-bottom-width: 1em;
 		opacity: 1;
 	}
 
-	#work-title {
+	.header {
 		display: block;
 		padding-top: 25px;
 		padding-left: 20px;
@@ -152,10 +152,27 @@ border-bottom-width: 1em;
 		font-size: 2em;
 	}
 
-	#work-paragraph {
+	.details {
 		padding-left: 20px;
 		font-size: 1.2em;
 		font-family: "Rubik",sans-serif;
 		font-weight: 300;
 		font-style: italic;
+	}
+
+#contact-block {
+	opacity: 0;
+	max-height: 0px;
+	transition: max-height 0s, opacity 0.7s ease-in-out;
+		-webkit-transition: max-height 0s, opacity 0.7s ease-in-out; /* Chrome, Safari, Opera 15 */ 
+		-moz-transition: max-height 0s, opacity 0.7s ease-in-out;  /*Firefox*/
+		-ms-transition: max-height 0s, opacity 0.7s ease-in-out;/*IE*/
+		-o-transition: max-height 0s, opacity 0.7s ease-in-out; /*Opera 10*/
+	overflow: hidden;
+	padding: 0;
+	
+}
+	#contact-block.active {
+		max-height: 1250px;
+		opacity: 1;
 	}

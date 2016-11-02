@@ -15,8 +15,8 @@
 			<span id='self-title'>Self Proclaimed Awesome Guy</span>
 		</div>
 		<div id='portfolio-block' class='page'>
-			<span id='work-title'>Work</span>
-			<p id='work-paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor nibh eget nisi posuere molestie. Aenean volutpat vel ante in lacinia. Praesent dapibus lacinia elit at placerat. Aenean sollicitudin nibh sed faucibus volutpat. Curabitur gravida nunc rhoncus tempus dignissim. In eu elementum diam. Aenean nisi mi, faucibus ut erat quis, aliquet posuere nunc. </p>
+			<span class='header'>Work</span>
+			<p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor nibh eget nisi posuere molestie. Aenean volutpat vel ante in lacinia. Praesent dapibus lacinia elit at placerat. Aenean sollicitudin nibh sed faucibus volutpat. Curabitur gravida nunc rhoncus tempus dignissim. In eu elementum diam. Aenean nisi mi, faucibus ut erat quis, aliquet posuere nunc. </p>
 			<div class='img-row'>
 				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
 				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
@@ -29,10 +29,13 @@
 			</div>
 
 		</div>
-		<div id='contact' class='page'>
-
+		<div id='contact-block' class='page'>
+			<span class='header'>GitHub</span>
+			<p class='details'>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.</p>
+			<span class='header'>Email</span>	
+			<p class='details'>Email me at </p>
 		</div>
-		<div id='blog-blocker' class='page'>
+		<div id='blog-block' class='page'>
 
 		</div>
 
@@ -44,11 +47,10 @@
 
 var navItems = document.getElementsByClassName("img-link");
 const navItemsLength = navItems.length;
-var rateOfScroll = 360;
 
-for(let j = 0; j < navItemsLength; j++) {
+for(let j = 0; j < navItemsLength; j++) { //loop through all nav items to apply listener to each
 
-	navItems[j].addEventListener("click", function() {
+	navItems[j].addEventListener("click", function() { //add event listener to each nav item
 
 		var moveToInactive = document.querySelectorAll(".active"); //find all with active class.
 
@@ -61,7 +63,6 @@ for(let j = 0; j < navItemsLength; j++) {
 	});
 
 }
-
 
 </script>
 <?php include 'footer.php'; ?>
