@@ -33,7 +33,7 @@
 			<span class='header'>GitHub</span>
 			<p class='details'>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.</p>
 			<span class='header'>Email</span>	
-			<p class='details'>Email me at </p>
+			<p class='details'>Email me at <a href='mailto:kylewb2011@gmail.com'>kylewb2011@gmail.com</a>. I'll be sure to get back to you as soon as I can.</p>
 		</div>
 		<div id='blog-block' class='page'>
 
