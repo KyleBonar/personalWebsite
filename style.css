@@ -12,7 +12,7 @@ html body {
 
 #navigation {
 	margin: 0 auto;
-	width: 85%;
+	width: 76em;
 	text-align: center;
 }
 
@@ -29,7 +29,7 @@ html body {
     border-right: 0.9em solid transparent;
     width: 0px;
     height: 0px;
-    bottom: -36px;
+    bottom: -38px;
     content: "";
     display: block;
     left: 40%;
@@ -78,7 +78,7 @@ border-bottom-width: 1em;
 #main {
 	margin: 35px auto 0px auto;
     /*text-align: center;*/
-    width: 85%;
+    width: 76em;
     background: #ffffff none repeat scroll 0 0;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -87,11 +87,11 @@ border-bottom-width: 1em;
 #home-block {
 	max-height: 0px;
 	opacity: 0;
-	transition: max-height 0s, opacity 0.7s ease-in-out;
-		-webkit-transition: max-height 0s, opacity 0.7s ease-in-out; /* Chrome, Safari, Opera 15 */ 
-		-moz-transition: max-height 0s, opacity 0.7s ease-in-out;  /*Firefox*/
-		-ms-transition: max-height 0s, opacity 0.7s ease-in-out;/*IE*/
-		-o-transition: max-height 0s, opacity 0.7s ease-in-out; /*Opera 10*/
+	transition: max-height 0s, opacity 1.1s ease;
+		-webkit-transition: max-height 0s, opacity 1.1s ease; /* Chrome, Safari, Opera 15 */ 
+		-moz-transition: max-height 0s, opacity 1.1s ease;  /*Firefox*/
+		-ms-transition: max-height 0s, opacity 1.1s ease;/*IE*/
+		-o-transition: max-height 0s, opacity 1.1s ease; /*Opera 10*/
 	overflow: hidden;
 }
 
@@ -128,11 +128,11 @@ border-bottom-width: 1em;
 #portfolio-block {
 	opacity: 0;
 	max-height: 0px;
-	transition: max-height 0s, opacity 0.7s ease-in-out;
-		-webkit-transition: max-height 0s, opacity 0.7s ease-in-out; /* Chrome, Safari, Opera 15 */ 
-		-moz-transition: max-height 0s, opacity 0.7s ease-in-out;  /*Firefox*/
-		-ms-transition: max-height 0s, opacity 0.7s ease-in-out;/*IE*/
-		-o-transition: max-height 0s, opacity 0.7s ease-in-out; /*Opera 10*/
+	transition: max-height 0s, opacity 1.1s ease;
+		-webkit-transition: max-height 0s, opacity 1.1s ease; /* Chrome, Safari, Opera 15 */ 
+		-moz-transition: max-height 0s, opacity 1.1s ease;  /*Firefox*/
+		-ms-transition: max-height 0s, opacity 1.1s ease;/*IE*/
+		-o-transition: max-height 0s, opacity 1.1s ease; /*Opera 10*/
 	overflow: hidden;
 	padding: 0;
 	
@@ -163,11 +163,11 @@ border-bottom-width: 1em;
 #contact-block {
 	opacity: 0;
 	max-height: 0px;
-	transition: max-height 0s, opacity 0.7s ease-in-out;
-		-webkit-transition: max-height 0s, opacity 0.7s ease-in-out; /* Chrome, Safari, Opera 15 */ 
-		-moz-transition: max-height 0s, opacity 0.7s ease-in-out;  /*Firefox*/
-		-ms-transition: max-height 0s, opacity 0.7s ease-in-out;/*IE*/
-		-o-transition: max-height 0s, opacity 0.7s ease-in-out; /*Opera 10*/
+	transition: max-height 0s, opacity 1.1s ease;
+		-webkit-transition: max-height 0s, opacity 1.1s ease; /* Chrome, Safari, Opera 15 */ 
+		-moz-transition: max-height 0s, opacity 1.1s ease;  /*Firefox*/
+		-ms-transition: max-height 0s, opacity 1.1s ease;/*IE*/
+		-o-transition: max-height 0s, opacity 1.1s ease; /*Opera 10*/
 	overflow: hidden;
 	padding: 0;
 	
