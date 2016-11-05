@@ -158,7 +158,13 @@ border-bottom-width: 1em;
 		font-family: "Rubik",sans-serif;
 		font-weight: 300;
 		font-style: italic;
+		margin-top: 0.5em;
 	}
+
+	.descriptor {
+		font-weight: 600;
+	}
+
 
 #contact-block {
 	opacity: 0;

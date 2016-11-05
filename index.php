@@ -17,16 +17,19 @@
 		<div id='portfolio-block' class='page'>
 			<span class='header'>Work</span>
 			<p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor nibh eget nisi posuere molestie. Aenean volutpat vel ante in lacinia. Praesent dapibus lacinia elit at placerat. Aenean sollicitudin nibh sed faucibus volutpat. Curabitur gravida nunc rhoncus tempus dignissim. In eu elementum diam. Aenean nisi mi, faucibus ut erat quis, aliquet posuere nunc. </p>
-			<div class='img-row'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
-			</div>
-			<div class='img-row'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
-				<img src='http://kylebonar.com/images/fillerImage.jpg' class='work-img'>
-			</div>
+			
+			<span class='header'>Physics Department at Texas A&M</span>
+			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
+			<br><span class='descriptor'>Tools: </span> Hello atlanta.</p>
+
+			<span class='header'>Mitchell Institute at Texas A&M</span>
+			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
+			<br><span class='descriptor'>Tools: </span> Hello atlanta.</p>
+
+			<span class='header'>JavaScript Fun Quiz</span>
+			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
+			<br><span class='descriptor'>Tools: </span> Hello atlanta.</p>
+			
 
 		</div>
 		<div id='contact-block' class='page'>
