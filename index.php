@@ -20,15 +20,15 @@
 			
 			<span class='header'>Physics Department at Texas A&M</span>
 			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
-			<br><span class='descriptor'>Tools: </span> Hello atlanta.</p>
+			<br><span class='descriptor'>Tools: </span> PHP 5.4, CSS3, HTML5, MySQL, Wordpress, JavaScript, jQuery </p>
 
 			<span class='header'>Mitchell Institute at Texas A&M</span>
 			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
-			<br><span class='descriptor'>Tools: </span> Hello atlanta.</p>
+			<br><span class='descriptor'>Tools: </span> PHP 5.4, CSS3, HTML5, MySQL, Wordpress, JavaScript, jQuery</p>
 
 			<span class='header'>JavaScript Fun Quiz</span>
 			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
-			<br><span class='descriptor'>Tools: </span> Hello atlanta.</p>
+			<br><span class='descriptor'>Tools: </span> JavaScript, HTML5, CSS3</p>
 			
 
 		</div>
