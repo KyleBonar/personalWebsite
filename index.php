@@ -5,7 +5,7 @@
 		<a href='#' class='img-link active' id='home'><img src='http://kylebonar.com/images/home.svg'><span>Home</span></a>
 		<a href='#' class='img-link' id='portfolio'><img src='http://kylebonar.com/images/work.svg'><span>Portfolio</span></a>
 		<a href='#' class='img-link' id='contact' ><img src='http://kylebonar.com/images/contact.svg'><span>Contact</span></a>
-		<a href='#' class='img-link' id='blog'><img src='http://kylebonar.com/images/blog.svg'><span>Blog (?)</span></a>
+		<a href='#' class='img-link' id='resume'><img src='http://kylebonar.com/images/resume.svg'><span>R&eacute;sum&eacute;</span></a>
 	</div>
 
 	<div id='main'>
@@ -19,11 +19,11 @@
 			<p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor nibh eget nisi posuere molestie. Aenean volutpat vel ante in lacinia. Praesent dapibus lacinia elit at placerat. Aenean sollicitudin nibh sed faucibus volutpat. Curabitur gravida nunc rhoncus tempus dignissim. In eu elementum diam. Aenean nisi mi, faucibus ut erat quis, aliquet posuere nunc. </p>
 			
 			<span class='header'>Physics Department at Texas A&M</span>
-			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
+			<p class='details'><span class='descriptor'>Purpose: </span> 
 			<br><span class='descriptor'>Tools: </span> PHP 5.4, CSS3, HTML5, MySQL, Wordpress, JavaScript, jQuery </p>
 
 			<span class='header'>Mitchell Institute at Texas A&M</span>
-			<p class='details'><span class='descriptor'>Purpose: </span>You can find some of the public code I've written at <a href='https://github.com/KyleBonar'>https://github.com/KyleBonar</a>.
+			<p class='details'><span class='descriptor'>Purpose: </span> As a student Web Development Assistant, I worked on a small team to completely redesign the home domain for the Astronomy Department. We were responsible for migrating years of static content into a MySQL database, for both easier managing and record keeping, while also ensuring that all pages become responsive. Several custom Wordpress themes were developed for this project and remain actively maintained today.
 			<br><span class='descriptor'>Tools: </span> PHP 5.4, CSS3, HTML5, MySQL, Wordpress, JavaScript, jQuery</p>
 
 			<span class='header'>JavaScript Fun Quiz</span>
@@ -38,7 +38,7 @@
 			<span class='header'>Email</span>	
 			<p class='details'>Email me at <a href='mailto:kylewb2011@gmail.com'>kylewb2011@gmail.com</a>. I'll be sure to get back to you as soon as I can.</p>
 		</div>
-		<div id='blog-block' class='page'>
+		<div id='resume-block' class='page'>
 
 		</div>
 
