@@ -35,7 +35,10 @@
 			</div>
 
 			<div class='info-block'>
-				<a href=''><span class='header'>JavaScript Fun Quiz</span><img class='external' src='http://kylebonar.com/images/external-link.svg'></a>
+				<a href=''><span class='header'>JavaScript Fun Quiz</span>
+				<svg vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg" width="29" height="32px" viewBox="0 0 1289 1181"><rect fill="none" x="-1" y="-1" width="1289" height="1181"/><path d="m1010.4 714.2l0 244q0 91.3-60.5 156.1t-145.7 64.8l-595.9 0q-85.2 0-145.7-64.8t-60.5-156.1l0-638.1q0-91.3 60.5-156.1t145.7-64.8l504.2 0q10 0 16.5 6.9t6.4 17.6l0 49.1q0 10.7-6.4 17.6t-16.5 6.9l-504.2 0q-47.3 0-80.9 36t-33.7 86.7l0 638.1q0 50.6 33.7 86.7t80.9 36l595.9 0q47.3 0 80.9-36t33.7-86.7l0-245.4q0-10.7 6.4-17.6t16.5-6.9l45.8 0q10 0 16.5 6.9t6.4 17.9zm275-662.9l0 392.7q0 19.9-13.6 34.5t-32.2 14.6 -32.2-14.6l-126.1-135 -467 500q-7.2 7.7-16.5 7.7t-16.5-7.7l-81.6-87.4q-7.2-7.7-7.2-17.6t7.2-17.6l467-500 -126.1-135q-13.6-14.6-13.6-34.5t13.6-34.5 32.2-14.6l366.7 0q18.6 0 32.2 14.6t13.6 34.5z" fill="#000"/>
+				</svg>
+				</a>
 				<div class='details'>
 					<p><span class='descriptor'>Purpose: </span>Howdy</p>
 					<p><span class='descriptor'>Tools: </span> JavaScript, HTML5, CSS3</p>

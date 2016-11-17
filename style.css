@@ -10,6 +10,14 @@ p {
 	margin-top: 10px;
 	margin-bottom: 0;
 }
+
+a:hover {
+	color: blue;
+}
+
+a {
+	color: #000;
+}
 #content-wrapper {
 	padding-top: 75px;
 }
@@ -157,6 +165,7 @@ border-bottom-width: 1em;
 		font-weight: 500;
 		font-style: normal;
 		font-size: 2em;
+		margin-right: 15px;
 	}
 
 	.details {
