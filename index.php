@@ -59,7 +59,7 @@
 
 		</div>
 		<div id='contact-block' class='page'>
-			
+
 			<div class='info-block'>
 				<span class='header'>GitHub </span>
 				<div class='details'>
@@ -76,10 +76,11 @@
 			
 		</div>
 		<div id='resume-block' class='page'>
-			<span class='header'>JavaScript Fun Quiz</span>
-			<div class='details'>
-				<p><span class='descriptor'>Purpose: </span>Howdy</p>
-				<p><span class='descriptor'>Tools: </span> JavaScript, HTML5, CSS3</p>
+			<div class='info-block'>
+				<span class='header'>R&eacute;sum&eacute;</span>
+				<div class='details'>
+					<p>You can find my r&eacute;sum&eacute; <a href='http://kylebonar.com/images/Bonar_Kyle_2016.pdf'> here</a>.</p>
+				</div>
 			</div>
 		</div>
 
