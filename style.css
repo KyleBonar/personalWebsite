@@ -9,22 +9,32 @@ html body {
 p {
 	margin-top: 10px;
 	margin-bottom: 0;
+	color: #69707a;
 }
 
 a:hover {
-	color: blue;
+	color: #000;
 }
 
 a {
-	color: #000;
+	color: #800000;
+	text-decoration: none;
 }
+
+svg {
+	vertical-align: top;
+}
+svg path {
+	fill: #800000;
+}
+
 #content-wrapper {
 	padding-top: 75px;
 }
 
 #navigation {
 	margin: 0 auto;
-	width: 76em;
+	width: 80%;
 	text-align: center;
 }
 
@@ -88,9 +98,9 @@ border-bottom-width: 1em;
 }
 
 #main {
-	margin: 35px auto 0px auto;
+	margin: 35px auto;
     /*text-align: center;*/
-    width: 76em;
+    width: 80%;
     background: #ffffff none repeat scroll 0 0;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -152,15 +162,17 @@ border-bottom-width: 1em;
 	#portfolio-block.active {
 		max-height: 1250px;
 		opacity: 1;
+		padding: 0% 1% 2%;
 	}
 
-	.info-block {
+	.active .info-block {
 		margin-top: 1.2em;
+		margin-left: 1em;
 	}
+
+
 	.header {
 		display: inline;
-		padding-top: 25px;
-		padding-left: 20px;
 		font-family: 'Rubik', sans-serif;
 		font-weight: 500;
 		font-style: normal;
@@ -180,10 +192,15 @@ border-bottom-width: 1em;
 	.descriptor {
 		font-weight: 600;
 		font-size: 21px;
+		color: #000;
 	}
 
 	img.external {
 		width: 32px;
+	}
+
+	a:hover svg path {
+		fill: #000;
 	}
 
 #contact-block {
@@ -201,6 +218,7 @@ border-bottom-width: 1em;
 	#contact-block.active {
 		max-height: 1250px;
 		opacity: 1;
+		padding: 0% 1% 2%;
 	}
 
 #resume-block {
@@ -218,4 +236,5 @@ border-bottom-width: 1em;
 	#resume-block.active {
 		max-height: 1250px;
 		opacity: 1;
+		padding: 0% 1% 2%;
 	}
