@@ -23,13 +23,16 @@ a {
 
 svg {
 	vertical-align: top;
+	height: 29px;
+	vertical-align: -2px;
+	display: inherit;
 }
 svg path {
 	fill: #800000;
 }
 
 #content-wrapper {
-	padding-top: 75px;
+	padding-top: 55px;
 }
 
 #navigation {
@@ -92,6 +95,10 @@ border-bottom-width: 1em;
     position: absolute;
 }
 
+#content-wrapper span{
+	font-family: "Rubik",sans-serif;
+}
+
 .img-link:hover span{
 	visibility: visible;
 	opacity: 1;
@@ -104,6 +111,7 @@ border-bottom-width: 1em;
     background: #ffffff none repeat scroll 0 0;
     box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+    min-width: inherit;
 }
 
 #home-block {
@@ -115,6 +123,8 @@ border-bottom-width: 1em;
 		-ms-transition: max-height 0s, opacity 1.1s ease;/*IE*/
 		-o-transition: max-height 0s, opacity 1.1s ease; /*Opera 10*/
 	overflow: hidden;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 	#home-block.active {
@@ -124,8 +134,7 @@ border-bottom-width: 1em;
 
 	#home-block img {
 		float: right;
-		border-top-right-radius: 6px;
-		border-bottom-right-radius: 6px;
+		border-radius: 0 6px 6px 0;
 	}
 
 	#name {
@@ -162,10 +171,10 @@ border-bottom-width: 1em;
 	#portfolio-block.active {
 		max-height: 1250px;
 		opacity: 1;
-		padding: 0% 1% 2%;
+		padding: 0% 2% 2%;
 	}
 
-	.active .info-block {
+	.info-block {
 		margin-top: 1.2em;
 		margin-left: 1em;
 	}
@@ -177,16 +186,19 @@ border-bottom-width: 1em;
 		font-weight: 500;
 		font-style: normal;
 		font-size: 2em;
-		margin-right: 15px;
+		margin-right: 5px;
+
 	}
 
 	.details {
 		padding-left: 20px;
+		padding-right: 0px;
 		font-size: 1.2em;
 		font-family: "Rubik",sans-serif;
 		font-weight: 300;
 		font-style: italic;
 		margin-top: 0.5em;
+		margin-bottom: 0em;
 	}
 
 	.descriptor {
@@ -218,7 +230,7 @@ border-bottom-width: 1em;
 	#contact-block.active {
 		max-height: 1250px;
 		opacity: 1;
-		padding: 0% 1% 2%;
+		padding: 0% 2% 2%;
 	}
 
 #resume-block {
@@ -236,5 +248,111 @@ border-bottom-width: 1em;
 	#resume-block.active {
 		max-height: 1250px;
 		opacity: 1;
-		padding: 0% 1% 2%;
+		padding: 0% 2% 2%;
 	}
+
+@media screen and (max-width: 625px) {
+
+	#main {
+		margin-top: 0px;
+		min-width: inherit;
+	}
+	#content-wrapper {
+		padding-top: 0px;
+	}
+	#navigation {
+		display: none;
+	}
+
+	#home-block,
+	#portfolio-block,
+	#contact-block,
+	#resume-block,
+	#home-block.active,
+	#portfolio-block.active,
+	#contact-block.active,
+	#resume-block.active {
+		max-height: 2500px;
+		opacity: 1;
+		padding: 0px;
+	}
+
+	#home-block,
+	#home-block.active {
+		padding-top: 15px;
+		
+	}
+
+	#home-block img {
+		display: block;
+		margin: 0 auto;
+		border-radius: 6px;
+		float: none;
+	}
+
+	#name {
+		display: block;
+		text-align: center;
+		padding-top: 0px;
+		font-size: 1.3em;
+	}
+	#self-title {
+		text-align: center;
+		padding-left: 0px;
+		font-size: 1em;
+	}
+
+	.header	{
+		padding-left: 10px;
+		margin-right: 0px;
+		font-size: 1.3em;
+		margin-left: 0px;
+	}
+
+	.descriptor {
+		font-size: 1.2em;
+	}
+
+	.details {
+		font-size: 1.1em;
+		margin-bottom: 0.5em;
+		padding-right: 20px;
+	}
+
+	svg {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 495px) {
+	#main {
+		width: 95%;
+		min-width: inherit;
+	}
+
+	.header {
+		padding-left: 5px;
+	}
+
+	.info-block {
+		margin-left: 0.5em;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	#main {
+		width: 100%;
+		min-width: 0;
+	}
+
+	.header {
+		padding-left: 0px;
+	}
+
+	.info-block {
+		margin-left: 1em;
+	}
+	.details {
+		padding-left: 10px;
+	}
+}
