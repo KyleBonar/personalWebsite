@@ -3,7 +3,6 @@ html body {
 	background-repeat: repeat, no-repeat;
 	background-size: auto auto, 100% 100%;
 	background-attachment: fixed;
-
 }
 
 p {
@@ -46,6 +45,7 @@ svg path {
 	position: relative;
 	margin: 0 3%; 
 }
+
 #navigation .img-link:after {
 	/*visibility: hidden;
 	opacity: 0;*/
@@ -64,8 +64,7 @@ svg path {
 }
 
 #navigation .img-link.active:after {
-border-bottom-width: 1em;
-
+	border-bottom-width: 1em;
 }
 
 .img-link span {
@@ -83,6 +82,7 @@ border-bottom-width: 1em;
 	border-radius: 6px;
 
 }
+
 .img-link span:after {
     border-left: 0.6em solid transparent;
     border-right: 0.6em solid transparent;
@@ -166,8 +166,8 @@ border-bottom-width: 1em;
 		-o-transition: max-height 0s, opacity 1.1s ease; /*Opera 10*/
 	overflow: hidden;
 	padding: 0;
-	
 }
+
 	#portfolio-block.active {
 		max-height: 1550px;
 		opacity: 1;
@@ -178,7 +178,6 @@ border-bottom-width: 1em;
 		margin-top: 1.2em;
 		margin-left: 1em;
 	}
-
 
 	.header {
 		display: inline;
@@ -242,8 +241,7 @@ border-bottom-width: 1em;
 		-ms-transition: max-height 0s, opacity 1.1s ease;/*IE*/
 		-o-transition: max-height 0s, opacity 1.1s ease; /*Opera 10*/
 	overflow: hidden;
-	padding: 0;
-	
+	padding: 0;	
 }
 	#resume-block.active {
 		max-height: 1250px;
@@ -257,9 +255,11 @@ border-bottom-width: 1em;
 		margin-top: 0px;
 		min-width: inherit;
 	}
+
 	#content-wrapper {
 		padding-top: 0px;
 	}
+
 	#navigation {
 		display: none;
 	}
@@ -280,7 +280,6 @@ border-bottom-width: 1em;
 	#home-block,
 	#home-block.active {
 		padding-top: 15px;
-		
 	}
 
 	#home-block img {
