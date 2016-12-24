@@ -16,7 +16,7 @@
 			<span id='self-title'>Web Developer and IT Specialist</span>
 		</div>
 		<div id='portfolio-block' class='page'>
-			
+
 			<div class='info-block'>
 				<a href='https://physics.tamu.edu' target='_blank'>
 					<span class='header'>Physics Department at Texas A&M</span>
@@ -56,7 +56,59 @@
 					<p><span class='descriptor'>Tools: </span> PHP 5.4, CSS3, Foundation 6, HTML5, MySQL, Wordpress, JavaScript, AJAX</p>
 				</div>
 			</div>
-			
+
+			<div class='info-block'>
+				<a href='http://kylebonar.com/games/pong/' target='_blank'><span class='header'>Ping Pong Application</span>
+				<svg vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg" width="29" height="32px" viewBox="0 0 1289 1181">
+						<rect fill="none" x="-1" y="-1" width="1289" height="1181"/>
+						<path d="m1010.4 714.2l0 244q0 91.3-60.5 156.1t-145.7 64.8l-595.9 0q-85.2 0-145.7-64.8t-60.5-156.1l0-638.1q0-91.3 60.5-156.1t145.7-64.8l504.2 0q10 0 16.5 6.9t6.4 17.6l0 49.1q0 10.7-6.4 17.6t-16.5 6.9l-504.2 0q-47.3 0-80.9 36t-33.7 86.7l0 638.1q0 50.6 33.7 86.7t80.9 36l595.9 0q47.3 0 80.9-36t33.7-86.7l0-245.4q0-10.7 6.4-17.6t16.5-6.9l45.8 0q10 0 16.5 6.9t6.4 17.9zm275-662.9l0 392.7q0 19.9-13.6 34.5t-32.2 14.6 -32.2-14.6l-126.1-135 -467 500q-7.2 7.7-16.5 7.7t-16.5-7.7l-81.6-87.4q-7.2-7.7-7.2-17.6t7.2-17.6l467-500 -126.1-135q-13.6-14.6-13.6-34.5t13.6-34.5 32.2-14.6l366.7 0q18.6 0 32.2 14.6t13.6 34.5z" fill="#000"/>
+					</svg>
+				</a>
+				<div class='details'>
+					<p><span class='descriptor'>Purpose: </span>A classic arcade game brought to you in a browser! This was my first time messing around with JavaScript's canvas method as well as creating an A.I. which acts as the opponent paddle. Users simply need to click on the canvas to start the game, and use the arrow up and down arrow keys to move their paddle. The ball speeds up over time so be careful! This code can be found in my gitHub.</p>
+					<p><span class='descriptor'>Tools: </span> JavaScript, HTML, CSS</p>
+				</div>
+			</div>
+
+			<div class='info-block'>
+				<a href='http://kylebonar.com/games/wordCount/' target='_blank'><span class='header'>Word Counting Application</span>
+				<svg vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg" width="29" height="32px" viewBox="0 0 1289 1181">
+						<rect fill="none" x="-1" y="-1" width="1289" height="1181"/>
+						<path d="m1010.4 714.2l0 244q0 91.3-60.5 156.1t-145.7 64.8l-595.9 0q-85.2 0-145.7-64.8t-60.5-156.1l0-638.1q0-91.3 60.5-156.1t145.7-64.8l504.2 0q10 0 16.5 6.9t6.4 17.6l0 49.1q0 10.7-6.4 17.6t-16.5 6.9l-504.2 0q-47.3 0-80.9 36t-33.7 86.7l0 638.1q0 50.6 33.7 86.7t80.9 36l595.9 0q47.3 0 80.9-36t33.7-86.7l0-245.4q0-10.7 6.4-17.6t16.5-6.9l45.8 0q10 0 16.5 6.9t6.4 17.9zm275-662.9l0 392.7q0 19.9-13.6 34.5t-32.2 14.6 -32.2-14.6l-126.1-135 -467 500q-7.2 7.7-16.5 7.7t-16.5-7.7l-81.6-87.4q-7.2-7.7-7.2-17.6t7.2-17.6l467-500 -126.1-135q-13.6-14.6-13.6-34.5t13.6-34.5 32.2-14.6l366.7 0q18.6 0 32.2 14.6t13.6 34.5z" fill="#000"/>
+					</svg>
+				</a>
+				<div class='details'>
+					<p><span class='descriptor'>Purpose: </span>Fun application that counts the number of times each unique word appears within a text area and creates a "bubble" with a respective area. Becoming more comfortable with JavaScript's Object Oriented Programming and using JavaScript's canvas method to have a little fun were the main goals of this project. Even with a block of text 32,000 lines long and over 8,000 unique words, the application works like a charm. This code can be found in my gitHub.</p>
+					<p><span class='descriptor'>Tools: </span> JavaScript, HTML, CSS</p>
+				</div>
+			</div>
+
+			<div class='info-block'>
+				<a href='http://kylebonar.com/games/phyllotaxis/' target='_blank'><span class='header'>Phyllotaxis Application </span>
+				<svg vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg" width="29" height="32px" viewBox="0 0 1289 1181">
+						<rect fill="none" x="-1" y="-1" width="1289" height="1181"/>
+						<path d="m1010.4 714.2l0 244q0 91.3-60.5 156.1t-145.7 64.8l-595.9 0q-85.2 0-145.7-64.8t-60.5-156.1l0-638.1q0-91.3 60.5-156.1t145.7-64.8l504.2 0q10 0 16.5 6.9t6.4 17.6l0 49.1q0 10.7-6.4 17.6t-16.5 6.9l-504.2 0q-47.3 0-80.9 36t-33.7 86.7l0 638.1q0 50.6 33.7 86.7t80.9 36l595.9 0q47.3 0 80.9-36t33.7-86.7l0-245.4q0-10.7 6.4-17.6t16.5-6.9l45.8 0q10 0 16.5 6.9t6.4 17.9zm275-662.9l0 392.7q0 19.9-13.6 34.5t-32.2 14.6 -32.2-14.6l-126.1-135 -467 500q-7.2 7.7-16.5 7.7t-16.5-7.7l-81.6-87.4q-7.2-7.7-7.2-17.6t7.2-17.6l467-500 -126.1-135q-13.6-14.6-13.6-34.5t13.6-34.5 32.2-14.6l366.7 0q18.6 0 32.2 14.6t13.6 34.5z" fill="#000"/>
+					</svg>
+				</a>
+				<div class='details'>
+					<p><span class='descriptor'>Purpose: </span>To create nice phyllotaxis images using only client-side rendering. Users can click anywhere within the canvas to create unique patterns and hopefully learn a bit too! The most common of phyllotaxis plants is the <a href='https://en.wikipedia.org/wiki/Phyllotaxis#/media/File:Aloe_polyphylla_1.jpg'>Aloe Polyphylla</a>. This code can be found in my gitHub.</p>
+					<p><span class='descriptor'>Tools: </span>JavaScript, HTML, CSS</p>
+				</div>
+			</div>
+
+			<div class='info-block'>
+				<a href='http://kylebonar.com/games/fractalTrees/' target='_blank'><span class='header'>Fractal Trees Application </span>
+				<svg vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg" width="29" height="32px" viewBox="0 0 1289 1181">
+						<rect fill="none" x="-1" y="-1" width="1289" height="1181"/>
+						<path d="m1010.4 714.2l0 244q0 91.3-60.5 156.1t-145.7 64.8l-595.9 0q-85.2 0-145.7-64.8t-60.5-156.1l0-638.1q0-91.3 60.5-156.1t145.7-64.8l504.2 0q10 0 16.5 6.9t6.4 17.6l0 49.1q0 10.7-6.4 17.6t-16.5 6.9l-504.2 0q-47.3 0-80.9 36t-33.7 86.7l0 638.1q0 50.6 33.7 86.7t80.9 36l595.9 0q47.3 0 80.9-36t33.7-86.7l0-245.4q0-10.7 6.4-17.6t16.5-6.9l45.8 0q10 0 16.5 6.9t6.4 17.9zm275-662.9l0 392.7q0 19.9-13.6 34.5t-32.2 14.6 -32.2-14.6l-126.1-135 -467 500q-7.2 7.7-16.5 7.7t-16.5-7.7l-81.6-87.4q-7.2-7.7-7.2-17.6t7.2-17.6l467-500 -126.1-135q-13.6-14.6-13.6-34.5t13.6-34.5 32.2-14.6l366.7 0q18.6 0 32.2 14.6t13.6 34.5z" fill="#000"/>
+					</svg>
+				</a>
+				<div class='details'>
+					<p><span class='descriptor'>Purpose: </span> To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree.</p>
+					<p><span class='descriptor'>Tools: </span>JavaScript, HTML, CSS</p>
+				</div>
+			</div>
+
 			<div class='info-block'>
 				<a href='https://github.com/KyleBonar' target='_blank'><span class='header'>GitHub</span>
 				<svg vector-effect="non-scaling-stroke" xmlns="http://www.w3.org/2000/svg" width="29" height="32px" viewBox="0 0 1289 1181">
@@ -78,7 +130,7 @@
 					<p>Email me at <a href='mailto:kylewbonar@gmail.com'>kylewbonar@gmail.com</a>. I'll be sure to get back to you promptly.</p>
 				</div>
 			</div>
-			
+
 		</div>
 		<div id='resume-block' class='page'>
 			<div class='info-block'>
@@ -93,4 +145,29 @@
 
 </div>
 
+<<<<<<< HEAD
+=======
+<script type="text/javascript">
+
+var navItems = document.getElementsByClassName("img-link");
+const navItemsLength = navItems.length;
+
+for(let j = 0; j < navItemsLength; j++) { //loop through all nav items to apply listener to each
+
+	navItems[j].addEventListener("click", function() { //add event listener to each nav item
+
+		var moveToInactive = document.querySelectorAll(".active"); //find all with active class.
+
+		moveToInactive[0].classList.remove("active"); //remove active from nav
+		this.classList.add("active"); //add active to nav
+
+		moveToInactive[1].classList.remove("active"); //remove active from page
+		document.querySelectorAll(".page")[j].classList.add("active"); //add active to page
+
+	});
+
+}
+
+</script>
+>>>>>>> 8ad203ce9bbfe9195f64d5013a04a1ff0cc76310
 <?php include 'footer.php'; ?>
