@@ -145,8 +145,6 @@
 
 </div>
 
-<<<<<<< HEAD
-=======
 <script type="text/javascript">
 
 var navItems = document.getElementsByClassName("img-link");
@@ -169,5 +167,5 @@ for(let j = 0; j < navItemsLength; j++) { //loop through all nav items to apply 
 }
 
 </script>
->>>>>>> 8ad203ce9bbfe9195f64d5013a04a1ff0cc76310
+
 <?php include 'footer.php'; ?>
