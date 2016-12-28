@@ -104,7 +104,7 @@
 					</svg>
 				</a>
 				<div class='details'>
-					<p><span class='descriptor'>Purpose: </span> To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree.</p>
+					<p><span class='descriptor'>Purpose: </span> To create a nice application which captures the ideas of fractal design. Users can click the canvas and cause a single branch to split into two. When the user clicks again, the branches will split again, so forth and so on. At any time, the tree can reset while sliders allow for customization and design a unique tree. This code can be found on my gitHub.</p>
 					<p><span class='descriptor'>Tools: </span>JavaScript, HTML, CSS</p>
 				</div>
 			</div>
