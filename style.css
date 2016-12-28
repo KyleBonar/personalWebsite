@@ -272,7 +272,7 @@ svg path {
 	#portfolio-block.active,
 	#contact-block.active,
 	#resume-block.active {
-		max-height: 2500px;
+		max-height: 5500px;
 		opacity: 1;
 		padding: 0px;
 	}
