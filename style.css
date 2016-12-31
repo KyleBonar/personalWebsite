@@ -184,7 +184,7 @@ svg path {
 		font-family: 'Rubik', sans-serif;
 		font-weight: 500;
 		font-style: normal;
-		font-size: 2em;
+		font-size: 1.7em;
 		margin-right: 5px;
 
 	}
@@ -192,7 +192,7 @@ svg path {
 	.details {
 		padding-left: 20px;
 		padding-right: 0px;
-		font-size: 1.2em;
+		font-size: 1em;
 		font-family: "Rubik",sans-serif;
 		font-weight: 300;
 		font-style: italic;
@@ -202,7 +202,7 @@ svg path {
 
 	.descriptor {
 		font-weight: 600;
-		font-size: 21px;
+		font-size: 17px;
 		color: #000;
 	}
 
